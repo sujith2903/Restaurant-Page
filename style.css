@@ -1,0 +1,56 @@
+*{
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(img/Main.jpg);
+    background-repeat: no-repeat;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.restaurant-name{
+    font-size: 8rem;
+    text-align: center;
+}
+
+header{
+    display:flex;
+    gap:20px;
+    font-size: 2rem;
+    padding: 5px;
+    justify-content: center;
+}
+.restaurant-name,header{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 20rem;
+    padding: 0px 25px;
+    backdrop-filter: blur(2px);
+}
+
+.intro{
+    font-size: 3rem;
+}
+
+.history{
+    text-align: center;
+    font-size: 2rem;
+}
