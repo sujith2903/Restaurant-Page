@@ -26,13 +26,22 @@ body{
 header{
     display:flex;
     gap:20px;
-    font-size: 2rem;
-    padding: 5px;
     justify-content: center;
 }
-.restaurant-name,header{
-    background-color: rgba(0, 0, 0, 0.9);
+
+button{
+    border:none;
+    font-size: 2rem;
+    padding:5px;
+    cursor: pointer;
+}
+
+.restaurant-name,header{ 
     width: 100%;
+}
+
+.restaurant-name,button,header{
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .about{
@@ -50,9 +59,11 @@ header{
 
 .intro{
     font-size: 3rem;
+    color: white;
 }
 
 .history{
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
