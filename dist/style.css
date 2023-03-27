@@ -34,13 +34,14 @@ button{
     font-size: 2rem;
     padding:5px;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .restaurant-name,header{ 
     width: 100%;
 }
 
-.restaurant-name,button,header{
+.restaurant-name,header{
     background-color: rgba(0, 0, 0, 0.9);
 }
 

@@ -37,6 +37,4 @@ export default function home() {
     history.classList.add('history')
     history.textContent = 'Family owned restaurant since 1995 serving Biryani and Love'
     about.appendChild(history)
-
-
 }
