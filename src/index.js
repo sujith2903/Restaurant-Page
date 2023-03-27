@@ -1,1 +1,3 @@
-console.log('test')
+import home from './home.js'
+
+home();
