@@ -27,6 +27,7 @@ header{
     display:flex;
     gap:20px;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 button{
@@ -35,6 +36,13 @@ button{
     padding:5px;
     cursor: pointer;
     background-color: transparent;
+    box-sizing: border-box;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px 5px rgba(228, 60, 60, 0.842);
+    border-bottom: none;
+    border-radius: 8px;
 }
 
 .restaurant-name,header{ 
