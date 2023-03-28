@@ -8,7 +8,7 @@ body{
     background-image: url(img/Main.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #content{
@@ -45,7 +45,7 @@ button{
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.about{
+.body{
     display: flex;
     flex-direction: column;
     margin-top: 20vh;
