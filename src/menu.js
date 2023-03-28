@@ -3,7 +3,7 @@ export default function menu() {
     const content = document.querySelector("#content")
     
     const body = document.createElement('div')
-    body.classList.add('body')
+    body.classList.add('body','menu')
     content.appendChild(body)
 
     const foods = ['veg', 'chicken', 'mutton', 'shrimp', 'fish', 'egg']
@@ -17,7 +17,8 @@ export default function menu() {
 
         let foodImg = `${foods[i]}` + `Img`
         foodImg = document.createElement('img')
-        foodImg.classList.add(`${foods[i]}`+`-img`)
+        foodImg.src = `../dist/img/` + `${foods[i]}` + `-biryani.jpg`
+        foodImg.classList.add(`${foods[i]}` + `-img`)
         foodDiv.appendChild(foodImg)
 
         let foodText = `${foods[i]}` + `Text`
@@ -26,3 +27,7 @@ export default function menu() {
         foodDiv.appendChild(foodText)
     }
 }
+
+
+
+

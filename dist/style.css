@@ -45,10 +45,10 @@ button{
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.body{
+.home.body{
     display: flex;
     flex-direction: column;
-    margin-top: 20vh;
+    margin-top: 200px;
     align-items: center;
     justify-content: space-evenly;
     gap:20px;
@@ -67,4 +67,19 @@ button{
     text-align: center;
     font-size: 2rem;
     color: white;
+}
+
+.food img{
+    width:10rem;
+    height:auto;
+}
+
+.body.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding:50px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px);
 }

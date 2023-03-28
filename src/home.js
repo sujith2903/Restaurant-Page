@@ -3,7 +3,7 @@ export default function home() {
     const content = document.querySelector("#content")
     
     const body = document.createElement('div')
-    body.classList.add('body')
+    body.classList.add('body','home')
     content.appendChild(body)
 
     const intro = document.createElement('div')
