@@ -28,6 +28,8 @@ header{
     gap:20px;
     justify-content: center;
     padding-bottom: 10px;
+    position: sticky;
+    top: 1px;
 }
 
 button{
@@ -85,9 +87,35 @@ button:hover{
 .body.menu{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:20px;
+    column-gap:20px;
+    row-gap:30px ;
     padding:50px;
-    margin-top: 20px;
+    margin: 20px 0px;
     background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(2px);
 }
+
+.food{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width:20rem;
+}
+
+.food div{
+    color: white;
+}
+
+.food div:nth-child(2){
+    font-size: 1.5rem;
+}
+
+.food div:nth-child(3){
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.food div:nth-child(4){
+    font-size: 1.1rem;
+}
+

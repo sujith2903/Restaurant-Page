@@ -43,7 +43,7 @@ export default function menu() {
 
         let foodPrice = `${foods[i]}` + `Price`
         foodPrice = document.createElement('div')
-        foodText.classList.add(`${foods[i]}` + `-price`)
+        foodPrice.classList.add(`${foods[i]}` + `-price`)
         foodPrice.textContent = prices[i]
         foodDiv.appendChild(foodPrice)
     }
