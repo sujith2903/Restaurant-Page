@@ -25,7 +25,7 @@ export default function menu() {
 
         let foodImg = `${foods[i]}` + `Img`
         foodImg = document.createElement('img')
-        foodImg.src = `../dist/img/` + `${foods[i]}` + `-biryani.jpg`
+        foodImg.src = `img/` + `${foods[i]}` + `-biryani.jpg`
         foodImg.classList.add(`${foods[i]}` + `-img`)
         foodDiv.appendChild(foodImg)
 
