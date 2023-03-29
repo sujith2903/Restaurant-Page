@@ -119,3 +119,7 @@ button:hover{
     font-size: 1.1rem;
 }
 
+.body.contact {
+    margin: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
