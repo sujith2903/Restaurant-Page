@@ -7,7 +7,7 @@ export default function contact() {
     content.appendChild(body)
 
     const number = document.createElement('div')
-    number.textContent = '999 999 9999'
+    number.textContent = '(999) - 999 - 9999'
     number.classList.add('number')
     body.appendChild(number)
 
@@ -16,12 +16,12 @@ export default function contact() {
     body.appendChild(address)
 
     const street = document.createElement('div')
-    street.textContent = '123 ABC Ave'
+    street.textContent = '123 ABC Ave,'
     street.classList.add('street')
     address.appendChild(street)
 
     const city = document.createElement('div')
-    city.textContent = 'Dallas'
+    city.textContent = 'Dallas,'
     city.classList.add('city')
     address.appendChild(city)
 
@@ -35,7 +35,7 @@ export default function contact() {
     body.appendChild(time)
 
     const days = document.createElement('div')
-    days.textContent = 'Mon-Sat'
+    days.textContent = 'Mon - Sat'
     days.classList.add('days')
     time.appendChild(days)
 

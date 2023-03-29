@@ -1,5 +1,5 @@
 *{
-    color: rgba(228, 60, 60, 0.842);
+    color: rgba(225, 228, 60, 0.842);
     padding: 0px;
     margin: 0px;
 }
@@ -42,7 +42,7 @@ button{
 }
 
 button:hover{
-    box-shadow: 0px 0px 10px 5px rgba(228, 60, 60, 0.842);
+    box-shadow: 0px 0px 10px 5px rgba(255, 136, 0, 0.842);
     border-bottom: none;
     border-radius: 8px;
 }
@@ -120,6 +120,20 @@ button:hover{
 }
 
 .body.contact {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
     margin: 20px 0px;
+    padding: 50px;
     background-color: rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    align-items: center;
 }
+
+.number, .address div, .time div{
+    color: white; 
+  
+}
+
+
+
